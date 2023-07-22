@@ -1,0 +1,40 @@
+El TAD = Un conjunto de Valores
+Una lista es una secuencia de elementos de un determinado tipo => lista homegenia 
+(a1,a2,a3,a4,a5, .....an) donde n > 0 si n = 0 de una lista vacia
+
+eL TAD = A ARRAY 
+Valores : secuencuencia de elementos, operaciones = Inicia , localiza, recupera, inserta, suprime, modifica
+Inicia (lista) -> efecto = devolverme una lista vacia
+arreglo = array();
+Localizar el elemento -> Posicion  Efecto = Devolverme la posicion de la lista 
+arreglo = array('Domingo','Lunes','Martes','Miercoles'); 0 , 1 , 2
+arreglo[1];
+
+El TAD 
+Especificacion Formal 
+*Inicia Lista -> Lista
+Localiza(Lista, Elemento) -> Posicion de elemento
+Recupera(La lista, Posicion) -> Elemento
+*Inserta(Lista, Posicion, Elemento)-> Lista
+*Suprime(Lista, Posicion, Elemento) -> Lista
+*Modificar(lista, Posicion, Elemento) -> Lista
+Semantica 
+SuprimirDir(Inicia(Lista)) -> Error
+SuprimirDir(Insertar(L,P,E),P) -> LINEAL
+Modificar(Inicia(Lista),P,E) -> Error
+Modificar(Inserta(L,P,E)P)-> INsertar (L,P,ME)
+
+Constructores
+TAD DE IMPLEMENTACION 
+Estaticos 
+- intenger
+- Real
+- Record
+- Array 
+Dinamicos 
+- Pilas
+- Colas
+- Array 
+
+Dimanicos 
+Pilas, COLAS, Listas, Punteros
