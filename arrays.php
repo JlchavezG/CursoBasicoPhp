@@ -4,7 +4,7 @@
 $valor1 = 3; 
 $valor2 = 5;  
 $valor3 = 14;
-$arreglo = array($valor1,$valor2,$valor3); 
+$arreglo = array($valor1,$valor2,$valor3,$valor4); 
 // el array contiene posiciones dadas desde 0 
 // var_dump($arreglo);
 // sacar el numero de elementos de un array
