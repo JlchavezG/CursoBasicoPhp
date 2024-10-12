@@ -1,5 +1,10 @@
 <?php 
- 
+ if(isset($_POST['btnSumar'])){
+  $numero1 = $_POST['numero1'];
+  $numero2 = $_POST['numero2'];
+  $suma = $numero1 + $numero2;
+  echo "el valor de la suma es: ".$suma;
+ }
 
 
 ?>
@@ -13,8 +18,8 @@
 </head>
 <body>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
-          <input type="text" name="numero1" placeholder="Digita numero" required> +
-          <input type="text" name="numero2" placeholder="Digita Numero" required>
+          <input type="number" name="numero1" placeholder="Digita numero" required> +
+          <input type="number" name="numero2" placeholder="Digita Numero" required>
           <input type="submit" value="Sumar" name="btnSumar">
     </form>
 
